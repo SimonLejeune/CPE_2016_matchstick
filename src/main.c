@@ -1,15 +1,24 @@
 /*
-** main.c for matchstick in /Users/simonlejeune/Epitech/CPE_2016_matchstick/src/
+** main.c for matchstick in /Users/simonlejeune/Elementary_Programming_in_C/Sem2/CPE_2016_matchstick/src/
 **
 ** Made by Simon LEJEUNE
 ** Login   <simon.lejeune@epitech.eu>
 **
-** Started on  Tue Feb 14 15:59:12 2017 Simon LEJEUNE
-** Last update Tue Feb 14 16:15:56 2017 Simon LEJEUNE
+** Started on  Tue Feb 21 15:30:24 2017 Simon LEJEUNE
+** Last update Wed Feb 22 13:49:32 2017 Simon LEJEUNE
 */
 
-int main(int argc, char *argv[])
+#include <stdlib.h>
+#include <stdio.h>
+#include "../include/my.h"
+
+int main(int ac, char **av)
 {
-  
-  return (0);
+  if (error(ac, av) == 0)
+    {
+      printf("%i\n", my_getnbr(av[1]));
+      printf("%i\n", my_getnbr(av[2]));
+    }
+  else
+    return (84);
 }
