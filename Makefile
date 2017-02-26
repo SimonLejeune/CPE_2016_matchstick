@@ -5,12 +5,12 @@
 ## Login   <simon.lejeune@epitech.eu>
 ##
 ## Started on  Tue Feb 21 15:30:07 2017 Simon LEJEUNE
-## Last update Wed Feb 22 13:25:01 2017 Simon LEJEUNE
+## Last update Thu Feb 23 12:21:14 2017 Simon LEJEUNE
 ##
 
 CC	=	gcc
 
-CFLAGS	=	-W -Wall
+CFLAGS	=	-W -Wall -Wextra
 
 SRC	=	src/main.c \
 			src/functions.c \
